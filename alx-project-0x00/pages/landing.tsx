@@ -15,14 +15,10 @@ const Landing: React.FC = () => {
 
             {/* Action Buttons */}
             <div className="flex flex-wrap gap-4">
-                <Button title="Check Availability" size="medium" shape="rounded-md" />
-                <Button title="Book Now" size="medium" shape="rounded-md" />
-                <Button
-                    title="$120/night"
-                    size="medium"
-                    shape="rounded-md"
-                    disabled
-                />
+                <Button title="Check Availability" size="medium" shape="rounded-sm" styles="" />
+                <Button title="Book Now" size="medium" shape="rounded-md" styles="" />
+                <Button title="$120/night" size="medium" shape="rounded-full" styles="" />
+
             </div>
         </div>
     );
